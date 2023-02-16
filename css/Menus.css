@@ -1,0 +1,96 @@
+@import "../index.css";
+
+.mobile-menu {
+  height: calc(100vh - 50px);
+  width: 100%;
+  position: absolute;
+  top: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mobile-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mobile-menu ul li {
+  margin: 3rem 0;
+}
+
+.mobile-menu ul li a {
+  text-decoration: none;
+  color: var(--dark);
+  font-size: var(--md);
+  font-weight: var(--bold);
+}
+
+.mobile-menu div ul:last-child {
+  border-top: solid 0.1rem var(--text-input-field);
+}
+
+.menu-info-container p {
+  color: var(--Very-light-pink);
+  font-size: var(--sm);
+  font-weight: var(--light);
+}
+
+.menu-info-container a {
+  color: var(--hospital-green);
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-weight: var(--bold);
+  font-size: var(--sm);
+}
+
+/* --------------------------- */
+
+.desktop-menu {
+  display: block;
+  width: 15rem;
+  height: 20rem;
+  padding: 0 2rem;
+  border-radius: 0.5rem;
+  border: solid 0.1rem transparent;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.119789);
+  position: absolute;
+  top: 8rem;
+  right: 10rem;
+  background-color: var(--white);
+  z-index: 1000;
+}
+
+.desktop-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.desktop-menu ul li {
+  text-align: end;
+  width: 100%;
+  margin: 3rem 0;
+}
+
+.desktop-menu ul li a {
+  text-decoration: none;
+  color: var(--dark);
+  font-size: var(--md);
+  font-weight: var(--bold);
+}
+
+.desktop-menu ul li:last-child {
+  border-top: solid 0.1rem var(--text-input-field);
+  padding: 2rem 0 0 0;
+}
+
+.desktop-menu ul li:last-child a {
+  font-size: var(--sm);
+  color: var(--hospital-green);
+}

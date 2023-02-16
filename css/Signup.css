@@ -1,0 +1,51 @@
+@import "../index.css";
+
+
+.signup-form {
+  height: 100vh;
+  width: 34rem;
+}
+
+.signup-form h1 {
+  margin-top: 10rem;
+}
+
+
+
+.signup-form-contain {
+  padding: 4rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.signup-button a {
+  text-decoration: none;
+  color: var(--hospital-green);
+}
+
+.create-button {
+  position: absolute;
+  bottom: 0;
+}
+
+.value {
+  height: 4.2rem;
+  width: 34rem;
+  font-size: var(--md);
+  color: var(--Very-light-pink);
+  margin: 1.4rem 0 2rem 0.6rem;
+}
+
+@media (min-width: 700px) {
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .create-button {
+    position: relative;
+  }
+}

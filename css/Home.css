@@ -1,0 +1,54 @@
+@import "./index.css";
+
+.main-container {
+  height: 100vh;
+  width: 100%;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 18rem);
+  place-content: center;
+}
+
+.products-card {
+  height: 24rem;
+  width: 18rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.products-card img {
+  height: 16rem;
+  width: 16rem;
+  border-radius: 2rem;
+  object-fit: cover;
+}
+
+.cards-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.cards-info_price {
+  color: var(--dark);
+  font-size: var(--md);
+  font-weight: var(--bold);
+}
+
+.cards-info_title {
+  color: var(--Very-light-pink);
+  font-size: var(--sm);
+  font-weight: var(--medium);
+}
+
+.cards-info figure img {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}

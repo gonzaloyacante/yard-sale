@@ -1,0 +1,98 @@
+@import "./css/Login.css";
+@import "./css/ForgotPassword.css";
+@import "./css/EmailSent.css";
+@import "./css/Signup.css";
+@import "./css/Home.css";
+@import "./css/Menus.css";
+@import "./css/MyOrder.css";
+@import "./css/MyOrders.css";
+@import "./css/Navbar.css";
+@import "./css/ProductsDetails.css";
+@import "./css/ShoppingCart.css";
+
+:root {
+    --Very-light-pink: #C7C7C7;
+    --text-input-field:#f7f7f7;
+    --hospital-green: #ACD9B2;
+    --white: #FFFFFF;
+    --black: #000000;
+    --dark: #232830;
+
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+
+    --light: 300;
+    --medium: 500;
+    --bold: 700;
+
+    --font-family: 'Quicksand', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: var(--font-family);
+}
+
+.title {
+    font-size: var(--lg);
+    font-weight: var(--bold);
+    color: var(--black);
+    height: 2rem;
+    margin-bottom: 1.2rem;
+}
+
+.primary-button {
+    background-color: var(--hospital-green);
+    color: var(--white);
+    border-radius: 1rem;
+    height: 6rem;
+    width: 34rem;
+    border: none;
+    font-size: var(--md);
+    font-weight: var(--bold);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.secondary-button {
+    background-color: var(--white);
+    color: var(--hospital-green);
+    border-radius: 1rem;
+    height: 6rem;
+    width: 34rem;
+    border: solid 0.1rem var(--hospital-green);
+    font-size: var(--md);
+    font-weight: var(--bold);
+    cursor: pointer;
+    position: absolute;
+    bottom: 2.4rem;
+}
+
+.inactive {
+    display: none;
+}
+
+@media (min-width: 700px) {
+    .large-logo {
+        display: none;
+    }
+
+    .form-container {
+        height: 60rem;
+    }
+
+    .secondary-button {
+        position: relative;
+    }
+}
