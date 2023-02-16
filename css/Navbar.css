@@ -7,6 +7,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
+  position: fixed;
+  top: 0;
+  background-color: var(--white);
 
   border: 1px solid #ffffff;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.046805);
@@ -28,10 +31,13 @@
   height: 5.4rem;
   width: 100%;
   border: 1px solid #ffffff;
+  background-color: var(--white);
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.046805);
   justify-content: space-between;
   align-items: center;
   padding: 0 5rem;
+  position: fixed;
+  top: 0;
 }
 
 .desktop-navbar-left {
@@ -45,7 +51,7 @@
   height: 3rem;
 }
 
-.desktop-navbar-logo img{
+.desktop-navbar-logo img {
   height: 3rem;
 }
 
