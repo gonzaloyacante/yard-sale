@@ -53,6 +53,64 @@ productList.push({
   price: 950.64,
   image: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Image product',
 });
+productList.push({
+  name: 'Bike',
+  price: 120,
+  image: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Image product',
+})
+
+productList.push({
+  name: 'Computadora',
+  price: 565.89,
+  image: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Image product',
+})
+
+productList.push({
+  name: 'Patines',
+  price: 230.25,
+  image: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Image product',
+})
+
+productList.push({
+  name: 'Autito',
+  price: 60.00,
+  image: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Image product',
+})
+
+productList.push({
+  name: 'Escalera',
+  price: 950.64,
+  image: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Image product',
+});
+productList.push({
+  name: 'Bike',
+  price: 120,
+  image: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Image product',
+})
+
+productList.push({
+  name: 'Computadora',
+  price: 565.89,
+  image: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Image product',
+})
+
+productList.push({
+  name: 'Patines',
+  price: 230.25,
+  image: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Image product',
+})
+
+productList.push({
+  name: 'Autito',
+  price: 60.00,
+  image: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Image product',
+})
+
+productList.push({
+  name: 'Escalera',
+  price: 950.64,
+  image: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Image product',
+});
 
 function renderProducts(arr) {
   for (product of arr) {

@@ -2,6 +2,7 @@
 
 .mobile-menu {
   height: calc(100vh - 50px);
+  background-color: var(--white);
   width: 100%;
   position: absolute;
   top: 5rem;
