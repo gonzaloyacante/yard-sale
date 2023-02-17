@@ -188,6 +188,7 @@ function renderProducts(arr) {
 
     const cardImage = document.createElement("img");
     cardImage.src = product.image;
+    cardImage.alt = `Imagen de ${product.name}.`;
     cardImage.addEventListener("click", showProductDetail);
 
     const cardInfo = document.createElement("div");
@@ -205,6 +206,8 @@ function renderProducts(arr) {
     const cardFigure = document.createElement("figure");
     const cardFigureImgCart = document.createElement("img");
     cardFigureImgCart.src = "./assets/icons/bt_add_to_cart.svg";
+    cardFigureImgCart.alt = "Icono de un carrito, presionarlo agrega el producto al carrito.";
+
 
     productCard.appendChild(cardImage);
     productCard.appendChild(cardInfo);
