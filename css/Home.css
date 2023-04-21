@@ -4,7 +4,7 @@
   height: calc(100vh - 55px);
   width: 100%;
   margin: 0 auto;
-  padding-top: 5.5rem;
+  padding-top: 10rem;
 }
 
 .cards-container {
@@ -12,23 +12,31 @@
   grid-template-columns: repeat(auto-fill, calc(18rem + 2vw));
   place-content: center;
   place-items: center;
-  padding-top: 1rem;
+  gap: 1rem;
+}
+
+.cards-container-cards-error {
+  display: grid;
+  place-content: center;
+  text-align: center;
 }
 
 .products-card {
-  height: calc(22rem + 2vw);
-  width: calc(16rem + 2vw);
-  border-radius: 2rem;
+  height: calc(24rem + 2vw);
+  width: calc(18rem + 2vw);
+  border-radius: 1rem;
+  background-color: var(--text-input-field);
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
+  cursor: pointer;
 }
 
 .products-card img {
-  height: calc(16rem + 2vw);
-  width: calc(16rem + 2vw);
-  border-radius: 2rem;
+  height: 70%;
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
   object-fit: cover;
   cursor: pointer;
 }
@@ -36,8 +44,14 @@
 .cards-info {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  width: calc(14rem + 2vw);
+  align-items: start;
+  padding-top: 1rem;
+  width: 90%;
+  height: 30%;
+}
+
+.cards-info div {
+  width: 70%;
 }
 
 .cards-info_price {
@@ -56,6 +70,11 @@
   height: 4rem;
   width: 4rem;
   border-radius: 50%;
+}
+
+.cards-error-info {
+  min-width: 20rem;
+  max-width: 60rem;
 }
 
 @media (max-width: 400px) {
@@ -80,6 +99,6 @@
 
 @media (min-width: 700px) {
   .main-container {
-    width: 80%;
+    width: 90%;
   }
 }
