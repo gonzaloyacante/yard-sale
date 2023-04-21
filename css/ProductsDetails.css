@@ -1,0 +1,107 @@
+@import "../index.css";
+
+.products-details {
+  height: calc(100vh - 55px);
+  background-color: var(--white);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 990;
+}
+
+.products-details-close {
+  display: grid;
+  height: 4rem;
+  width: 4rem;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  place-content: center;
+  border-radius: 50%;
+  top: 1.5rem;
+  left: 1.5rem;
+  background-color: var(--white);
+  cursor: pointer;
+}
+
+.products-details_img-container {
+  display: flex;
+  align-items: flex-start;
+  height: 40rem;
+  flex-direction: column;
+}
+
+.products-details_img-container img {
+  height: 37.5rem;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0px 0px 2rem 2rem;
+}
+
+.products-details_img-select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2.5rem;
+  width: 100%;
+  gap: 1rem;
+}
+
+.products-details_img-select i {
+  width: 0.7rem;
+  height: 0.7rem;
+  background-color: var(--Very-light-pink);
+  border-radius: 50%;
+}
+
+.products-details-info-container {
+  width: 90%;
+}
+
+.products-details-info_price {
+  color: var(--dark);
+  font-size: var(--lg);
+  font-weight: var(--bold);
+  margin: 2.5rem 0 0.5rem 0;
+}
+
+.products-details-info_name {
+  color: var(--Very-light-pink);
+  font-size: var(--lg);
+  font-weight: var(--light);
+  margin-bottom: 2rem;
+}
+
+.products-details-info_description {
+  color: var(--Very-light-pink);
+  font-size: var(--md);
+  font-weight: var(--light);
+}
+
+.addToCart-button {
+  position: absolute;
+  bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90% !important;
+}
+
+.addToCart-button img {
+  color: var(--white);
+  margin-right: 1rem;
+}
+
+@media (min-width: 400px) {
+  .products-details {
+    box-shadow: 0rem 0rem 0.6rem rgba(0, 0, 0, 0.119789);
+    border-radius: 0.5rem;
+    width: 40rem;
+  }
+  .addToCart-button {
+    width: 34rem;
+  }
+}

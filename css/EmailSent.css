@@ -1,0 +1,30 @@
+@import "./index.css";
+
+.form-email-icon {
+  background-color: var(--text-input-field);
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-email-icon img {
+  height: 6rem;
+}
+
+.resend {
+  font-size: var(--sm);
+  font-weight: var(--medium);
+  margin-top: 3rem;
+}
+
+.resend span {
+  color: var(--Very-light-pink);
+}
+
+.resend a {
+  text-decoration: none;
+  color: var(--hospital-green);
+}

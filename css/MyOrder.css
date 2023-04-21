@@ -1,0 +1,70 @@
+@import "../index.css";
+
+.my-order {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.my-order-container {
+  min-width: 34rem;
+  max-width: 40rem;
+}
+
+.my-order-contain {
+  height: 8rem;
+  min-width: 34rem;
+  max-width: 40rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  margin: 2rem;
+  background-color: var(--text-input-field);
+}
+
+.my-order-contain_date {
+  font-weight: var(--bold);
+  font-size: var(--md);
+}
+
+.my-order-contain_articles {
+  font-weight: var(--light);
+  font-size: var(--sm);
+}
+
+.my-order-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10rem;
+  min-width: 34rem;
+  max-width: 40rem;
+  padding: 0 3rem 0 2rem;
+}
+.my-order-items div {
+  display: flex;
+  align-items: center;
+}
+
+.my-order-items_img {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 2rem;
+  margin-right: 1rem;
+  object-fit: cover;
+}
+
+.my-order-items_price {
+  color: var(--dark);
+  font-size: var(--md);
+  font-weight: var(--bold);
+}
+
+.my-order-items_title {
+  color: var(--Very-light-pink);
+  font-size: var(--sm);
+  font-weight: var(--light);
+}

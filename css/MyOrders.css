@@ -1,0 +1,64 @@
+@import "../index.css";
+
+.my-orders {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.my-orders-container {
+  width: 34rem;
+  margin-top: 6rem;
+}
+
+.my-orders-container h1 {
+  display: none;
+}
+
+.my-orders-contain {
+  height: 8rem;
+  min-width: 34rem;
+  max-width: 44rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.my-orders-contain_date {
+  font-weight: var(--bold);
+  font-size: var(--md);
+}
+
+.my-orders-contain_articles {
+  font-weight: var(--light);
+  font-size: var(--sm);
+}
+
+.my-orders-contain_price {
+  display: flex;
+  justify-content: space-between;
+  width: 10rem;
+  padding-right: 1rem;
+}
+
+.my-orders-contain_price p {
+  color: var(--dark);
+  font-size: var(--md);
+  font-weight: var(--bold);
+}
+
+@media (min-width: 700px) {
+  .my-orders {
+    align-items: center;
+  }
+
+  .my-orders-container {
+    width: 40rem;
+  }
+
+  .my-orders-container h1 {
+    display: block;
+  }
+}

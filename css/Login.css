@@ -1,0 +1,97 @@
+@import "./index.css";
+
+
+.login {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.form-container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 34rem;
+  height: 100%;
+}
+
+.large-logo {
+  width: 22rem;
+  margin: 10rem 0 5rem 0;
+}
+
+.form {
+  text-align: left;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 30rem;
+  width: 100%;
+}
+
+.form-title {
+  font-size: var(--lg);
+  font-weight: var(--bold);
+  color: var(--black);
+  height: 2rem;
+  margin-bottom: 1.2rem;
+}
+
+.form-subtitle {
+  font-size: var(--md);
+  font-weight: var(--medium);
+  color: var(--Very-light-pink);
+  height: 2rem;
+}
+
+.label {
+  font-size: var(--sm);
+  font-weight: var(--bold);
+  margin-bottom: 0.8rem;
+}
+
+.input {
+  background-color: var(--text-input-field);
+  border: none;
+  height: 4.2rem;
+  width: 34rem;
+  font-size: var(--md);
+  padding: 0.6rem;
+  margin-bottom: 2rem;
+  outline: none;
+  border-radius: 1rem;
+}
+.input:focus {
+  border-bottom: solid 0.1rem var(--hospital-green);
+}
+
+
+.forgot-password-contain{
+  text-align: center;
+}
+
+.link-forgot-password {
+  color: var(--hospital-green);
+  font-size: var(--sm);
+  font-weight: var(--medium);
+  text-decoration: none;
+}
+
+.login-button {
+  margin-bottom: 2rem;
+}
+
+
+@media (min-width: 700px) {
+  .large-logo {
+      display: none;
+  }
+
+  .form-container {
+      height: 60rem;
+  }
+}
